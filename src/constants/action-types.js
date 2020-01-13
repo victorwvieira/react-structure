@@ -1,0 +1,3 @@
+export const UPDATE_TITLE = "UPDATE_TITLE";
+export const GET_DOLLAR_VALUE = "GET_DOLLAR_VALUE";
+export const GET_REAL_VALUE = "GET_REAL_VALUE";
