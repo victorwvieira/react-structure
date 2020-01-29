@@ -7,6 +7,7 @@ Features of project:
 - Redux
 - Redux Thunk - for assync
 - AXIOS - for call APIs
+- Unit Test with Jest and React Testing Library
 
 The application is running using Heroku - PAAS
 
