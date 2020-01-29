@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const BreadCrumbs = props => {
+export const BreadCrumbs = props => {
   const classes = useStyles();
   return (
     <Container className={classes.styleContainer} maxWidth={false}>

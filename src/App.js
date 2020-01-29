@@ -5,7 +5,7 @@ import Home from "./containers/home";
 import Header from "./components/header";
 import BreadCrumbs from "./components/breadCrumbs";
 
-function App() {
+export function App() {
   return (
     <Router>
       <Header />

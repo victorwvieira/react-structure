@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   }
 });
 
-const FlagCard = props => {
+export const FlagCard = props => {
   const classes = useStyles();
 
   const callTypeFunction = () => {

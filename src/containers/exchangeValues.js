@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const ExchangeValues = props => {
+export const ExchangeValues = props => {
   const classes = useStyles();
   useEffect(() => {
     if (props.dollar) {

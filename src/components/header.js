@@ -23,11 +23,11 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const Header = props => {
+export const Header = props => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div data-testid='headerid' className={classes.root}>
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.rootLinks}>{props.title}</Typography>
